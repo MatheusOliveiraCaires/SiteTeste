@@ -98,3 +98,27 @@ a {
 main {
     overflow: hidden;
 }
+
+section.skills {
+    margin: 5rem 0;
+}
+
+section.skills ul li {
+    background:rgba(126, 78, 211, 10%);
+    border-radius: 100rem;
+    margin: 0.5rem 0;
+}
+
+section.skills ul li span {
+    background: #7e4ed3;
+    color: #fff;
+    border-radius: 100rem;
+    padding: 0.3rem 1rem;
+    display: block;
+    font-size: 0.9rem;
+    transition: width 0.3s;
+}
+
+section.skills ul li span:hover {
+    width: 100% !important;
+}

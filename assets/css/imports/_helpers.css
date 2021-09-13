@@ -26,7 +26,8 @@
     width: max-content;
 }
 
-.light-detail {
+.light-detail,
+.dark-detail {
     position: relative;
     margin-bottom: 2rem;
 }
@@ -39,5 +40,16 @@
     width: 27px;
     height: 2px;
     background: #fff;
+    border-radius: 100;
+}
+
+.dark-detail:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 27px;
+    height: 2px;
+    background: #000;
     border-radius: 100;
 }
