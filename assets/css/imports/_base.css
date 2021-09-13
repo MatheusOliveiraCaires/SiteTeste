@@ -57,3 +57,44 @@ h1 {
 p {
     margin-bottom: 1rem;
 }
+
+section.about {
+    background: #7e4ed3;
+    color: #fff;
+    padding: 3rem 0 5rem 0;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    margin-top: 8rem;
+}
+
+section.about:before {
+content: '';
+background: rgba(126, 78, 211, 50%);
+width: 700px;
+height: 200px;
+position: absolute;
+transform: rotate(-6deg);
+top: -3rem;
+right: -3rem;
+z-index: -1;
+}
+
+section.about:after {
+    content: '';
+    background: #7e4ed3;
+    width: 120%;
+    height: 200px;
+    position: absolute;
+    transform: rotate(3deg);
+    top: -2.4rem;
+    left: -3rem;
+    z-index: -1;
+}
+
+a {
+    color: #33D1C5;
+}
+
+main {
+    overflow: hidden;
+}

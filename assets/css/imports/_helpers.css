@@ -25,3 +25,19 @@
     background: #7e4ed7;
     width: max-content;
 }
+
+.light-detail {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.light-detail:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 27px;
+    height: 2px;
+    background: #fff;
+    border-radius: 100;
+}
