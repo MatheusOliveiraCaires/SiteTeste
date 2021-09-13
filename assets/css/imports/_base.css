@@ -9,4 +9,37 @@ body {
     background-image: url('../../img/background.png');
 }
 
+nav {
+    background: #7e4ed3;
+    border-radius: 0 0 1rem 1rem;    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 1.5rem 1rem;
+    display: block;
+    position: relative;
+}
+
+nav ul li a:after {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 2px;
+    background: #fff;
+    left: 0;
+    top: 0;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover:after,
+nav ul li a.active:after {
+    width: 100%;
+}
+
 
