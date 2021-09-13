@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/joaosilva.css">
     <link rel="icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/all.css">
     <title>João Silva - Desenvolvedor Web</title>
 </head>
 
@@ -29,29 +30,37 @@
 
     <main>
         <section class="contact">
-            <h2>
-                Contato
-            </h2>
-            <p>
-                Preencha e envie o formulário abaixo, responderei assim que possível!
-            </p>
-            <form>
-                <input type="text" placeholder="Nome e Sobrenome">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Assunto">
-                <textarea rows="10" placeholder="Mensagem"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-            <ul>
-                <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="http://youtube.com" target="_blank">Youtube</a></li>
-                <li><a href="http://twitter.com" target="_blank">Twitter</a></li>
-            </ul>
+           <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="dark-detail">
+                        Contato
+                    </h2>
+                    <p>
+                        Preencha e envie o formulário abaixo, responderei assim que possível!
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Nome e Sobrenome">
+                        <input type="email" placeholder="E-mail">
+                        <input type="text" placeholder="Assunto">
+                        <textarea rows="10" placeholder="Mensagem"></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <ul class="social">
+                        <li><a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i>Youtube</a></li>
+                        <li><a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
         </section>
         
     </main>
 
-    <footer>
+    <footer class="absolute">
         <p>
             &copy; João Silva - Analista de Sistemas | Desenvolvedor Web | Programador JavaScript
         </p>
