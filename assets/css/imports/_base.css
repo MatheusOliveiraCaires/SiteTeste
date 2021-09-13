@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/roboto.ttf");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-image: url('../../img/background.png');
+}
+
+
