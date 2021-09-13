@@ -42,4 +42,18 @@ nav ul li a.active:after {
     width: 100%;
 }
 
+section.intro {
+    margin: 4rem 0;
+}
 
+section.intro .devices {
+    width: 100%;
+}
+
+h1 {
+    margin: 0.7rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
